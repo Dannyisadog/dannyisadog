@@ -1,0 +1,56 @@
+.main-banner {
+    width: 100%;
+    height: 210px;
+    margin: 0px auto;
+    background-color: darkturquoise;
+}
+
+.sub-banner {
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+    .sub-banner-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin:0 auto;
+        justify-content: center;
+        .left-banner {
+            background-color: cornflowerblue;
+        }
+    
+        .right-banner-wrapper {
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            .right-banner {
+                height: 250px;
+                width: 100%;
+                background-color: #e68e65;
+            }
+        }
+    }
+}
+
+.sub-banner .left-banner{
+    height: 100%;
+    width: 50%;
+}
+
+.sub-banner .right-banner-wrapper {
+    height: 100%;
+    width: 50%;
+}
+
+.product-slide-wrapper {
+    height: 600px;
+    width: 100%;
+    .product-slide {
+        width: 100%;
+        height: 250px;
+        background-color: #37c07c;
+        margin: 20px auto 0px auto;
+    }
+}

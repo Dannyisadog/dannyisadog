@@ -1,0 +1,91 @@
+.navbar {
+  width: 99%;
+  height: 60px;
+  background-color: pink;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 15px;
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+.main-content {
+  margin: 95px auto;
+  width: 75%;
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  bottom: -50px;
+  background-color: #f0b850;
+  position: relative;
+}
+
+.main-banner {
+  width: 100%;
+  height: 210px;
+  margin: 0px auto;
+  background-color: darkturquoise;
+}
+
+.sub-banner {
+  width: 100%;
+  height: 800px;
+  margin-top: 20px;
+}
+
+.sub-banner .sub-banner-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.sub-banner .sub-banner-wrapper .left-banner {
+  background-color: cornflowerblue;
+}
+
+.sub-banner .sub-banner-wrapper .right-banner-wrapper {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sub-banner .sub-banner-wrapper .right-banner-wrapper .right-banner {
+  height: 250px;
+  width: 100%;
+  background-color: #e68e65;
+}
+
+.sub-banner .left-banner {
+  height: 100%;
+  width: 50%;
+}
+
+.sub-banner .right-banner-wrapper {
+  height: 100%;
+  width: 50%;
+}
+
+.product-slide-wrapper {
+  height: 600px;
+  width: 100%;
+}
+
+.product-slide-wrapper .product-slide {
+  width: 100%;
+  height: 250px;
+  background-color: #37c07c;
+  margin: 20px auto 0px auto;
+}
+
+.main-container {
+  width: 100%;
+  height: 1900px;
+}
+
