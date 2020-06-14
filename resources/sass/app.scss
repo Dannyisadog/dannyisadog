@@ -1,1 +1,10 @@
-//
+@import 'partials/navbar.scss';
+@import 'partials/content.scss';
+@import 'partials/footer.scss';
+
+@import 'home.scss';
+
+.main-container {
+    width: 100%;
+    height: 1900px;
+}
