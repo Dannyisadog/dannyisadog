@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>@yield('app-title')</title>
-        <meta charset="utf-8">
+        @include('partials.header')
     </head>
     <body>
-        @yield('navbar')
-        @yield('content')
-        @yield('footer')
+        @include('partials.container')
     </body>
 </html>

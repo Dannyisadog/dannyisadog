@@ -8,6 +8,6 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('layout.app');
+        return view('home');
     }
 }
